@@ -17,15 +17,15 @@
           "/Users/thomasviard/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "net9.0"
         ],
         "sources": {
           "/opt/homebrew/Cellar/dotnet/9.0.0/libexec/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
-            "targetAlias": "netcoreapp2.1",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -42,16 +42,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "targetAlias": "netcoreapp2.1",
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -63,7 +55,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.0/libexec/sdk/9.0.100/RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.0/libexec/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
