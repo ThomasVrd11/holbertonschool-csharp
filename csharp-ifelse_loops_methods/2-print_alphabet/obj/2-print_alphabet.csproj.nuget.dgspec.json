@@ -1,31 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-hello_world/7-concat/7-concat.csproj": {}
+    "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-ifelse_loops_methods/2-print_alphabet/2-print_alphabet.csproj": {}
   },
   "projects": {
-    "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-hello_world/7-concat/7-concat.csproj": {
+    "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-ifelse_loops_methods/2-print_alphabet/2-print_alphabet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-hello_world/7-concat/7-concat.csproj",
-        "projectName": "7-concat",
-        "projectPath": "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-hello_world/7-concat/7-concat.csproj",
+        "projectUniqueName": "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-ifelse_loops_methods/2-print_alphabet/2-print_alphabet.csproj",
+        "projectName": "2-print_alphabet",
+        "projectPath": "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-ifelse_loops_methods/2-print_alphabet/2-print_alphabet.csproj",
         "packagesPath": "/Users/thomasviard/.nuget/packages/",
-        "outputPath": "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-hello_world/7-concat/obj/",
+        "outputPath": "/Users/thomasviard/holberton/holbertonschool-csharp/csharp-ifelse_loops_methods/2-print_alphabet/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/thomasviard/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp2.1"
+          "net9.0"
         ],
         "sources": {
           "/opt/homebrew/Cellar/dotnet/9.0.0/libexec/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp2.1": {
-            "targetAlias": "netcoreapp2.1",
+          "net9.0": {
+            "targetAlias": "net9.0",
             "projectReferences": {}
           }
         },
@@ -42,16 +42,8 @@
         "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
-        "netcoreapp2.1": {
-          "targetAlias": "netcoreapp2.1",
-          "dependencies": {
-            "Microsoft.NETCore.App": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.1.0, )",
-              "autoReferenced": true
-            }
-          },
+        "net9.0": {
+          "targetAlias": "net9.0",
           "imports": [
             "net461",
             "net462",
@@ -63,7 +55,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.0/libexec/sdk/9.0.100/RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet/9.0.0/libexec/sdk/9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
