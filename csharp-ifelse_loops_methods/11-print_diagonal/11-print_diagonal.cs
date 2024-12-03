@@ -8,12 +8,11 @@ class Line
             Console.WriteLine();
         else
         {
-            string empty = "";
-            
+            string emptySpace = "";
             for (int i = 0; i < length; i++)
             {
-                Console.WriteLine(empty + "\\"):
-                empty += " ";
+                Console.WriteLine(emptySpace + "\\");
+                emptySpace += " ";
             }
             Console.WriteLine();
         }
