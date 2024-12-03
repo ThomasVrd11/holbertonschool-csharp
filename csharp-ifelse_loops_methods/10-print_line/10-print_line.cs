@@ -2,7 +2,7 @@
 
 class Line
 {
-    public sttaus void PrintLine(int length)
+    public status void PrintLine(int length)
     {
         if (length > 0)
         {
