@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-public class ListOperations
+public class List
 {
     public static List<int> CommonElements(List<int> list1, List<int> list2)
     {
@@ -14,7 +14,7 @@ public class ListOperations
                 common.Add(item);
             }
         }
-        
+
         common.Sort();
 
         return common;
