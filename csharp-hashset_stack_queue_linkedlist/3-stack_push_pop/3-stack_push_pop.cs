@@ -18,11 +18,11 @@ public class MyStack
 
         if (aStack.Contains(search))
         {
-            System.Console.WriteLine("Stack contains " + search + ": True");
+            System.Console.WriteLine("Stack contains \"" + search + "\": True");
         }
         else 
         {
-            System.Console.WriteLine("Stack contains " + search + ": False");
+            System.Console.WriteLine("Stack contains \"" + search + "\": False");
         }
 
         if (aStack.Contains(search))
