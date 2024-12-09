@@ -9,7 +9,7 @@ class LList
 
         if (size < 0)
         {
-            return list2
+            return list2;
         }
 
         for (int i = 0; i < size; i++)
