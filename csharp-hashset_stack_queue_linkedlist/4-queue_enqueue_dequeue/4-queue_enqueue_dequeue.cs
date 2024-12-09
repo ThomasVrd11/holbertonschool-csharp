@@ -13,7 +13,7 @@ public class MyQueue
         }
         else
         {
-            System.Console.WriteLine("Top item: " + aQueue.Peek());
+            System.Console.WriteLine("First item: " + aQueue.Peek());
         }
 
         aQueue.Enqueue(newItem);
