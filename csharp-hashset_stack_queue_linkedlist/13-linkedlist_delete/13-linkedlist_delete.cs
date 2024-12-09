@@ -12,8 +12,8 @@ class LList
         {
             if (i == index)
             {
-            myLList.Remove(holbertonschoolByActual);
-            break;
+                myLList.Remove(holbertonschoolByActual);
+                break;
             }
         }
         i++;
