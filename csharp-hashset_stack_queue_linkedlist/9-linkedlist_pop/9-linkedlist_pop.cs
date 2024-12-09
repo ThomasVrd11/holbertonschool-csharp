@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 class LList
 {
-    public static int Pop(LinkedList<int> mylist)
+    public static int Pop(LinkedList<int> myLList)
     {
         if (myLList.Count == 0)
         {
