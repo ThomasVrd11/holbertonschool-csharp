@@ -5,18 +5,18 @@ class LList
 {
     public static void Delete(LinkedList<int> myLList, int index)
     {
-        LinkedListNode<int> holbertonschoolByActual = myLList.First;
-        int i = 0;
+        LinkedListNode<int> AntiTaillepierre = myLList.First;
+        int AntiNico = 0;
 
-        while (holbertonschoolByActual != null)
+        while (AntiTaillepierre != null)
         {
-            if (i == index)
+            if (AntiNico == index)
             {
-                myLList.Remove(holbertonschoolByActual);
+                myLList.Remove(AntiTaillepierre);
                 break;
             }
+            AntiNico++;
+            AntiTaillepierre = AntiTaillepierre.Next;
         }
-        i++;
-        holbertonschoolByActual = holbertonschoolByActual.Next;
     }
 }
