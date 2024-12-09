@@ -1,20 +1,22 @@
 ﻿using System;
 using System.Collections.Generic;
 
-class List
+public class ListOperations
 {
     public static List<int> CommonElements(List<int> list1, List<int> list2)
     {
-        List<int> same = new List<int>();
+        List<int> common = new List<int>();
 
-        foreach (int element in list1)
+        foreach (int item in list1)
         {
-            if (list2.Contains(item) && !same.Contains(element))
+            if (list2.Contains(item) && !common.Contains(item))
             {
-                same.Add(element);
+                common.Add(item);
             }
         }
-        same.Sort();
-        return same;
+        
+        common.Sort();
+
+        return common;
     }
 }
