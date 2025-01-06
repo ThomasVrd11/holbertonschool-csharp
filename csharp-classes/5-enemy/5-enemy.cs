@@ -35,7 +35,7 @@ namespace Enemies
         }
 
         /// <summary> Override that prints the zombie attribute to stdout </summary>
-        public .toString()
+        public override string toString()
         {
             return $"Zombie Name: {name} / Total Health: {health}";
         }
