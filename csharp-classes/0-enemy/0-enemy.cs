@@ -2,6 +2,6 @@
 
 namespace Enemies
 {
-    /// <Summary>blueprint for zombie.</Summary>
+    /// <summary>blueprint for zombie.</summary>
     public class Zombie {}
 }
