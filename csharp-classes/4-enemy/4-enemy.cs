@@ -25,7 +25,7 @@ namespace Enemies
         public string Name
         {
             get => name;
-            set => name = givenName;
+            set => name = value;
         }
 
         /// <summary> Method that returns the value of Zombie health </summary>
